@@ -1,10 +1,9 @@
-# IDEA Files (eroshenkoam: You could use <directory> pattern instead of <directory>/*)
+.DS_Store
+
+# IDEA Files 
 .idea
 *.iml
 *.ipr
-
-# Eclude svn directoories
-.svn
 
 # Eclude target directories
 target
@@ -13,4 +12,3 @@ target
 *.log
 *.classpath
 *.java.orig
-test.txt
