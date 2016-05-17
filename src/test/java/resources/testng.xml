@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Optile code challenge">
+    <test name = "some tests for dropbox">
+        <classes>
+            <class name="dropboxweb.CreateFolderNegativeTest">
+                <methods>
+                    <include name="tryCreateFolderWithInvalidName" />
+                </methods>
+            </class>
+            <class name="dropboxweb.UploadFilePositiveTest">
+                <methods>
+                    <include name="uploadValidFile" />
+                </methods>
+            </class>
+            <class name="dropboxweb.CreateFolderPositiveTest">
+                <methods>
+                    <include name="createFolderWithValidName" />
+                </methods>
+            </class>
+            <class name="dropboxweb.LogInEmailNegativeTest">
+                <methods>
+                    <include name="trySignInWithInvalidEmail" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
